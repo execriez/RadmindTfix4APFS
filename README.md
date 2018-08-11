@@ -19,7 +19,7 @@ Next, deploy transcripts from your Radmind server to this Mac OS workstation in 
 
 Now, in a shell type:
 	
-	RadmindDerez
+	RadmindTfix4APFS
 	
 The script will ask if you want a dummy run, answer Y or N.
 
@@ -27,7 +27,7 @@ If it is not a dummy run, the script will ask for the address of your Radmind se
 
 (NOTE: You may want to change the 'lcreate' line within the script to match your particular upload options.)
 
-The script works through the active transcripts (as defined by command.K), it removes SIP protected files from the transcript, and it removes any resource files referenced in the transcript from the active filesystem. The script then re-uploads any transcript that has been affected.
+The script will work through the active transcripts (as defined by command.K), it will remove SIP protected files from the transcript, and it will remove any resource files referenced in the transcript from the active filesystem. The script will then re-upload the affected transcripts to your Radmind server.
 
 When the script finishes, you should Update and Check-in these transcripts at your server. Checksums will differ so transcripts need updating.
 
