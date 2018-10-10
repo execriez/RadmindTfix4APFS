@@ -36,6 +36,10 @@ These transcripts will then be deployable to an APFS filesystems (hopefully).
 
 ## History:
 
+1.0.2 - 10 OCT 2018
+
+* Previous version included a broken RadmindTfix4SIP. This is now fixed. 
+
 1.0.1 - 08 AUG 2018
 
 * First release.
